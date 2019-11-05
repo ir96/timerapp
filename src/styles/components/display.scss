@@ -1,0 +1,29 @@
+$display-background-color: rgb(219, 190, 233);
+$display-border-color: rgb(90, 83, 83);
+$display-color: rgb(8, 100, 100);
+
+.display {
+    align-items: center;
+    background-color: $display-background-color;
+    border: 15px solid $display-border-color;
+    border-radius: 50%;    
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+}
+
+.display-time {
+    border: none;
+    background-color: $display-background-color;
+    color: $display-color;
+    font-size: 30px;
+    font-weight: 600;
+    outline-width: 1;
+    text-align: middle;
+    vertical-align: middle;    
+    width: 80px;
+}
